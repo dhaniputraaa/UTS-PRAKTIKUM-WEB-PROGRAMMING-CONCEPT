@@ -2,5 +2,8 @@
     width: 100px;
     height: 100px;
     position: fixed;
-    
+    background-color: rgb(88, 51, 255);
+    border-color: black;
+    border: solid 5px;
+
 }
