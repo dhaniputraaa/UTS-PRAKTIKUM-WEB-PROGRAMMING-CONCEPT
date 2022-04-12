@@ -7,3 +7,13 @@ document.onmousemove = (event) => {
     logo_box.style.top = y - (logo_box.clientWidth/2) + "px";
 
 }
+
+function random(number) {
+    return Math.floor(Math.random()* number)
+}
+
+document.onclick = function () {
+    acak = "rgb(" + random(255) +"," + random(255) +"," +random(255) + ")";
+    logo_box.style.background = acak
+    
+}
